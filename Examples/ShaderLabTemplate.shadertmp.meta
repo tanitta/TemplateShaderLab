@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e8ecddf07ca9fc9459f1db451d0a7728
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 4a18202ca083d65458e71e5ee60c2298, type: 3}
+  _variables:
+  - name: variable_tex_name
+    stringValue: _TestTex
+    valueType: 
