@@ -42,7 +42,7 @@ namespace trit.ShaderLabTemplate{
             }
             else
             {
-                Debug.LogError("Failed ShaderLab Template Importing.");
+                Debug.LogError("Failed to import shaderLab template.");
             }
         }
 
