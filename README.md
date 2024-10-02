@@ -76,7 +76,6 @@ Shader "Custom/MyDynamicShader"
 
 - `renderType`: e.g., `Opaque`
 - `lod`: e.g., `200`
-- `shaderCode`: e.g., custom shader code snippets
 
 ### 4. Use the Generated Shader
 
