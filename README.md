@@ -21,11 +21,11 @@ The **ShaderLabTemplateImporter** is a custom Unity asset importer that processe
 - Write your shader code using Scriban's templating syntax.
 - Save the file with a `.shadertmp` extension.
 
-**Example (`MyShader.shadertmp`):**
+**Example (`ExampleShader.shadertmp`):**
 
 ```hlsl
 {{ $textures = 4}}
-Shader "Custom/MyDynamicShader"
+Shader "Custom/ExampleShader"
 {
     Properties
     {
