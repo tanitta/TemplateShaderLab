@@ -33,7 +33,7 @@ namespace trit.ShaderLabTemplate{
 
             var model = CreateModelFromProperties();
             string renderedShaderSource = template.Render(model);
-            var shader = ShaderUtil.CreateShaderAsset(renderedShaderSource);
+            var shader = ShaderUtil.CreateShaderAsset(ctx, renderedShaderSource, true);
 
             if (shader != null)
             {
