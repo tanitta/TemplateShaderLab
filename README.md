@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **ShaderLabTemplateImporter** is a custom Unity asset importer that processes shader templates with the `.shadertmp` extension. It leverages the [Scriban](https://github.com/scriban/scriban) templating engine to render dynamic shader code based on user-defined variables. This allows for more flexible and maintainable shader development within the Unity engine.
+The **ShaderLabTemplateImporter** is a custom Unity asset importer that processes shader templates with the `.shadertmp` extension for shader meta programming. It leverages the [Scriban](https://github.com/scriban/scriban) templating engine to render dynamic shader code based on user-defined variables. This allows for more flexible and maintainable shader development within the Unity engine.
 
 ## Features
 
