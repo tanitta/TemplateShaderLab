@@ -8,7 +8,7 @@ The **ShaderLabTemplateImporter** is a custom Unity asset importer that processe
 
 - **Custom Shader Importing**: Automatically imports `.shadertmp` files and converts them into usable shader assets.
 - **Template Rendering**: Uses Scriban to parse and render shader templates with dynamic content.
-- **Variable Management(WIP)**: Supports the use of custom variables within shader templates to control shader properties and behavior.
+- **Variable Management**: Supports the use of custom variables within shader templates to control shader properties and behavior.
 
 ## Installation
 1. **Install NuGetForUnity**: Install [GlitchEnzo/NuGetForUnity](https://github.com/GlitchEnzo/NuGetForUnity) to your project.
