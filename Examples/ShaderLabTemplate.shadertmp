@@ -4,6 +4,8 @@ Shader "Unlit/ShaderLabTemplate"
     Properties
     {
         _MainTex ("Texture", 2D) = "white" {}
+
+        _TexStringName{{ stringname }}("Texture", 2D) = "white" {}
         {{for $i in (0..$textures)}}
             _Tex{{ $i }}("Texture", 2D) = "white" {}
         {{end}}
@@ -21,6 +23,7 @@ Shader "Unlit/ShaderLabTemplate"
             #pragma multi_compile_fog
 
             #include "UnityCG.cginc"
+            #include "includetest.cginc"
 
             struct appdata
             {

@@ -9,6 +9,5 @@ ScriptedImporter:
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 4a18202ca083d65458e71e5ee60c2298, type: 3}
   _variables:
-  - name: variable_tex_name
-    stringValue: _TestTex
-    valueType: 
+  - name: stringname
+    stringValue: Test
