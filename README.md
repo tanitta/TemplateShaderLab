@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **ShaderLabTemplateImporter** is a custom Unity asset importer that processes shader templates with the `.shadertmp` extension. It leverages the [Scriban](https://github.com/scriban/scriban) templating engine to render dynamic shader code based on user-defined variables. This allows for more flexible and maintainable shader development within the Unity engine.
+The **ShaderLabTemplateImporter** is a custom Unity asset importer that processes shader templates with the `.shadertmp` extension for shader meta programming. It leverages the [Scriban](https://github.com/scriban/scriban) templating engine to render dynamic shader code based on user-defined variables. This allows for more flexible and maintainable shader development within the Unity engine.
 
 ## Features
 
@@ -21,11 +21,11 @@ The **ShaderLabTemplateImporter** is a custom Unity asset importer that processe
 - Write your shader code using Scriban's templating syntax.
 - Save the file with a `.shadertmp` extension.
 
-**Example (`MyShader.shadertmp`):**
+**Example (`ExampleShader.shadertmp`):**
 
 ```hlsl
 {{ $textures = 4}}
-Shader "Custom/MyDynamicShader"
+Shader "Custom/ExampleShader"
 {
     Properties
     {
@@ -76,7 +76,6 @@ Shader "Custom/MyDynamicShader"
 
 - `renderType`: e.g., `Opaque`
 - `lod`: e.g., `200`
-- `shaderCode`: e.g., custom shader code snippets
 
 ### 4. Use the Generated Shader
 
