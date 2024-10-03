@@ -15,7 +15,7 @@ namespace trit.ShaderLabTemplate
         {
             var importer = target as ShaderLabTemplateImporter;
 
-            if(GUILayout.Button("Detect Variables",GUILayout.Width(240))){
+            if(GUILayout.Button("Detect Global Variables",GUILayout.Width(240))){
                 var variables = importer.GetTemplateVariables();
                 foreach(var v in variables){
                     Debug.Log(v);
