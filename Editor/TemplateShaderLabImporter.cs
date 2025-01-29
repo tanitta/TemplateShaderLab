@@ -8,9 +8,9 @@ using System.IO;
 using Scriban;
 using Scriban.Syntax;
 
-namespace trit.ShaderLabTemplate{
+namespace trit.TemplateShaderLab{
     [ScriptedImporter(1, "shadertmp")]
-    public class ShaderLabTemplateImporter : ScriptedImporter
+    public class TemplateShaderLabImporter : ScriptedImporter
     {
         [SerializeField]
         public List<ShaderVariable> _variables = new List<ShaderVariable>();

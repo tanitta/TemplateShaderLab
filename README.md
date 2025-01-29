@@ -1,8 +1,8 @@
-# ShaderLab Template Importer
+# Template ShaderLab Importer
 
 ## Overview
 
-The **ShaderLabTemplateImporter** is a custom Unity asset importer that processes shader templates with the `.shadertmp` extension for shader meta programming. It leverages the [Scriban](https://github.com/scriban/scriban) templating engine to render dynamic shader code based on user-defined variables. This allows for more flexible and maintainable shader development within the Unity engine.
+The **TemplateShaderLabImporter** is a custom Unity asset importer that processes shader templates with the `.shadertmp` extension for shader meta programming. It leverages the [Scriban](https://github.com/scriban/scriban) templating engine to render dynamic shader code based on user-defined variables. This allows for more flexible and maintainable shader development within the Unity engine.
 
 ## Features
 
@@ -12,7 +12,7 @@ The **ShaderLabTemplateImporter** is a custom Unity asset importer that processe
 
 ## Installation
 1. **Install NuGetForUnity**: Install [GlitchEnzo/NuGetForUnity](https://github.com/GlitchEnzo/NuGetForUnity) to your project.
-1. **Add UPM Package**: Add `https://github.com/tanitta/ShaderLabTemplate.git` to Package Manager or add `"net.tanitta.shader_lab_template": "https://github.com/tanitta/ShaderLabTemplate.git#main"` to Packages/manifest.json.
+1. **Add UPM Package**: Add `https://github.com/tanitta/TemplateShaderLab.git` to Package Manager or add `"net.tanitta.template_shader_lab": "https://github.com/tanitta/TemplateShaderLab.git#main"` to Packages/manifest.json.
 <!--
 ## Usage
 
@@ -64,7 +64,7 @@ Shader "Custom/ExampleShader"
 
 ### 2. Import the Shader Template
 
-- When you save the `.shadertmp` file, Unity will automatically use the `ShaderLabTemplateImporter` to process it.
+- When you save the `.shadertmp` file, Unity will automatically use the `TemplateShaderLabImporter` to process it.
 - Select the shader template in the Unity Project window to view its Inspector.
 
 ### 3. Define Template Variables

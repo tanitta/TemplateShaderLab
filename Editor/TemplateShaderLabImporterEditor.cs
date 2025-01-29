@@ -7,14 +7,14 @@ using Scriban;
 using UnityEditor.AssetImporters;
 using Scriban.Syntax;
 
-namespace trit.ShaderLabTemplate
+namespace trit.TemplateShaderLab
 {
-    [CustomEditor(typeof(ShaderLabTemplateImporter))]
+    [CustomEditor(typeof(TemplateShaderLabImporter))]
     public class ScribanShaderImporterEditor : ScriptedImporterEditor
     {
         public override void OnInspectorGUI()
         {
-            var importer = target as ShaderLabTemplateImporter;
+            var importer = target as TemplateShaderLabImporter;
 
             if(GUILayout.Button("Detect Global Variables",GUILayout.Width(240))){
                 var variables = importer.GetTemplateVariables();
@@ -27,7 +27,7 @@ namespace trit.ShaderLabTemplate
             base.OnInspectorGUI();
         }
 
-        private void SyncVariables(ShaderLabTemplateImporter importer, List<string> variableNames)
+        private void SyncVariables(TemplateShaderLabImporter importer, List<string> variableNames)
         {
             var existingVariables = importer._variables;
 
